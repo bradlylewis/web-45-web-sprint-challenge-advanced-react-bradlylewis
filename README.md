@@ -105,8 +105,16 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a stateful and a functional component?
 
-2. When does a componentWillMount function be called? What about a componentWillUpdate?
+A sateful component remembers the value of a component and changes the value as the state is changed.
+
+2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+A componentWillMount is called after the constructor function and a componentDidMount is called after the component is mounted on the screen.
+
 
 3. Define stateful logic.
 
+Using state to store and being able to update the states to new values
+
 4. What are the three step of creating a successful test? What is done in each phase?
+Arrange Act and Assert. Arrange is when you set targets. Then you want to Act on the behavior of the target. Assert is when you make sure the form gets what it expects.
